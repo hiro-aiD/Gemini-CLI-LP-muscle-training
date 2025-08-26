@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ガリガリ脱出プログラム - 3か月で鋼の肉体へ</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .font-oswald {
+            font-family: 'Oswald', sans-serif;
+        }
+        .hero-bg {
+            background-color: #000;
+            border-bottom: 5px solid #ff4500;
+        }
+        .accent-color {
+            color: #ff4500;
+        }
+        .accent-bg {
+            background-color: #ff4500;
+        }
+        .accent-border {
+            border-color: #ff4500;
+        }
+        .section-title {
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 3px solid #ff4500;
+            display: inline-block;
+            padding-bottom: 8px;
+        }
+        .btn-cta {
+            font-family: 'Oswald', sans-serif;
+            background-color: #ff4500;
+            color: #ffffff;
+            padding: 1.5rem 4rem;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            border: 2px solid #ff4500;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .btn-cta:hover {
+            background-color: transparent;
+            color: #ff4500;
+        }
+        .before-after-card {
+            border: 2px solid #444;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-20 px-4">
+        <div class="max-w-5xl mx-auto text-center">
+            <h1 class="font-oswald text-5xl md:text-7xl mb-6 leading-tight">
+                もう「ガリガリ」とは言わせない。
+            </h1>
+            <p class="text-2xl md:text-4xl font-bold accent-color mb-12">
+                90日で、自分史上最強の肉体を手に入れろ。
+            </p>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg mx-auto max-w-3xl">
+                <p class="text-xl md:text-2xl font-bold">
+                    どれだけ食べても、どれだけ筋トレしても、変われなかったお前へ。
+                </p>
+                <p class="text-2xl md:text-3xl font-oswald accent-color mt-4">
+                    これが最後のチャンスだ。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before/After Section -->
+    <section class="py-20 px-4 bg-black">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="section-title text-4xl md:text-5xl font-bold text-center mb-16">
+                これが90日間の結果だ
+            </h2>
+            <div class="flex flex-col md:flex-row gap-8 items-center justify-center text-center">
+                <!-- Before -->
+                <div class="before-after-card p-6 rounded-lg md:w-2/5">
+                    <h3 class="font-oswald text-4xl mb-4 text-gray-400">BEFORE</h3>
+                    <img src="ガリガリ写真.png" alt="プログラム参加前の写真" class="mx-auto rounded-lg shadow-lg">
+                    <p class="mt-4 text-xl font-bold">体重50kgの頼りない身体</p>
+                </div>
+
+                <!-- Arrow -->
+                <div class="hidden md:block px-4">
+                    <i class="fas fa-long-arrow-alt-right text-6xl accent-color"></i>
+                </div>
+                <div class="md:hidden">
+                    <i class="fas fa-long-arrow-alt-down text-6xl accent-color"></i>
+                </div>
+
+                <!-- After -->
+                <div class="before-after-card p-6 rounded-lg md:w-2/5 border-4 accent-border shadow-2xl">
+                    <h3 class="font-oswald text-4xl mb-4 accent-color">AFTER</h3>
+                    <img src="ムキムキ写真.png" alt="プログラム参加後の写真" class="mx-auto rounded-lg shadow-lg">
+                    <p class="mt-4 text-xl font-bold">誰もが振り向く鋼の肉体へ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="py-20 px-4 bg-gray-900">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="section-title text-4xl md:text-5xl font-bold mb-12">
+                こんな屈辱、もう終わりにしないか？
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6 text-left">
+                <div class="bg-gray-800 p-6 rounded-lg border-l-4 accent-border">
+                    <p class="text-lg"><i class="fas fa-times-circle mr-3 accent-color"></i>Tシャツ一枚になるのが怖い</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border-l-4 accent-border">
+                    <p class="text-lg"><i class="fas fa-times-circle mr-3 accent-color"></i>「ちゃんと食べてる？」という同情</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border-l-4 accent-border">
+                    <p class="text-lg"><i class="fas fa-times-circle mr-3 accent-color"></i>筋トレしても筋肉痛になるだけ</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border-l-4 accent-border">
+                    <p class="text-lg"><i class="fas fa-times-circle mr-3 accent-color"></i>自分に自信が持てない</p>
+                </div>
+            </div>
+            <div class="mt-12 accent-bg text-black p-8 rounded-lg">
+                <h3 class="text-2xl md:text-3xl font-bold mb-4">それは「体質」のせいじゃない。<br>完全な「戦略ミス」だ。</h3>
+                <p class="text-xl">正しい知識と計画がなければ、お前の努力は無駄になる。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="py-20 px-4 bg-black">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="section-title text-4xl md:text-5xl font-bold mb-12">
+                俺たちが提供する「勝利への方程式」
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8 text-left">
+                <div class="bg-gray-800 p-8 rounded-lg border-t-4 accent-border">
+                    <i class="fas fa-utensils text-4xl accent-color mb-4"></i>
+                    <h3 class="font-oswald text-2xl mb-4">増量ハッキング栄養学</h3>
+                    <p>ただ食うな。計算し尽くされた栄養で、筋肉だけをデカくしろ。</p>
+                </div>
+                <div class="bg-gray-800 p-8 rounded-lg border-t-4 accent-border">
+                    <i class="fas fa-dumbbell text-4xl accent-color mb-4"></i>
+                    <h3 class="font-oswald text-2xl mb-4">破壊と再生のトレーニング</h3>
+                    <p>週3回、30分。最短で筋肉をぶっ壊し、超回復させるためのメニューだ。</p>
+                </div>
+                <div class="bg-gray-800 p-8 rounded-lg border-t-4 accent-border">
+                    <i class="fas fa-headset text-4xl accent-color mb-4"></i>
+                    <h3 class="font-oswald text-2xl mb-4">完全個別サポート</h3>
+                    <p>お前を一人にはしない。専属トレーナーが90日間、徹底的に管理する。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 px-4 accent-bg">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="font-oswald text-5xl md:text-6xl text-black font-bold mb-8">
+                今すぐ、その弱い自分を脱ぎ捨てろ。
+            </h2>
+            <div class="bg-black p-8 rounded-lg mb-12">
+                <div class="text-2xl line-through text-gray-500">通常価格 59,800円</div>
+                <div class="text-6xl font-bold accent-color my-2">29,800円</div>
+                <p class="text-xl font-bold">【期間限定】今だけ50% OFF</p>
+            </div>
+            <button class="btn-cta rounded-lg shadow-lg transform hover:scale-105">
+                <i class="fas fa-rocket mr-4"></i>
+                今すぐ申し込む
+            </button>
+            <p class="mt-8 text-black font-bold text-xl">
+                ⚠️ 先着50名限定だ。迷っている暇はない。
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-4 bg-black text-gray-400">
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="font-oswald text-2xl mb-4">ガリガリ脱出プログラム</p>
+            <p>&copy; 2024 ガリガリ脱出プログラム. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
